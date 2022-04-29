@@ -9,9 +9,10 @@ public class Order {
         this.amount = amount;
         this.delivery = delivery;
         shipFeed = delivery.price;
-
-        if (amount >= 199 && shipFeed == 19){
+        if (amount >= 199 && delivery.name == "Shopee"){
             shipFeed =0;
+        /*if (amount >= 199 && shipFeed == 19){
+            shipFeed =0;*/
         }
     }
 
