@@ -2,7 +2,7 @@ package com.fju.order;
 
 public class FamilyDelivery extends Delivery {
     public FamilyDelivery() {
-        name = "7-11";
+        name = "Family";
         price = 60;
     }
 }
